@@ -1,5 +1,5 @@
-let string = '';
-let size = 8;
+let string: string = '';
+let size: number = 8;
 
 for (let i = 0; i < size; i++) {
     for (let j = 0; j < size; j++) {
@@ -10,7 +10,8 @@ for (let i = 0; i < size; i++) {
         }
     }
     string += '\n'
-};
+}
 
 console.log(string);
+console.log('Erma');
 

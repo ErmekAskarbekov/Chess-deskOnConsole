@@ -12,5 +12,5 @@ for (let i = 0; i < size; i++) {
     }
     string += '\n';
 }
-;
 console.log(string);
+console.log('Erma');
